@@ -1,0 +1,66 @@
+.Todo ol{
+    list-style: none;
+
+}
+
+.Todo li{
+    padding: 8px;
+    margin: 5px;
+    text-align: left;
+
+}
+
+.Todo li:hover{
+    background-color: rgb(27, 25, 25);
+    cursor: pointer;
+}
+.Todo{
+    width: 95%;
+
+}
+.Todo hr{
+    padding:  0;
+    margin: 0;
+    margin-top: 10 px;
+}
+
+.Todo .completeTask{
+    font-size:  20px;
+    color: green;
+    text-decoration: line-through;
+}
+
+.Todo .dueTask{
+    font-size: 20px;
+    color: red;
+}
+
+.Todo .do{
+    height: 20px;
+    width: 20px;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+    font-size:  20px;
+    text-shadow: 1px 1px 1px blue;
+}
+
+.Todo .do:hover{
+    background-color: lightskyblue;
+}
+
+.Todo .cross{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+    color: black;
+    font-size: 18px;
+}
+.Todo .cross:hover{
+    background-color: darkred;
+}
