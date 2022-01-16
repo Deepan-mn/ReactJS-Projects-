@@ -25,13 +25,20 @@ const Todolist=()=>{
         setTodothings(filterArr);
 
     }
+    const Edit=(index,newVal)=>{
+        if(!newVal){
+            return;
+        }
+        const updatelist=[...todothings]
+        updatelist[index].text =newVal;
+        setTodothings(updatelist);
+    }
 
     return(
         <div className='Todo-List'>
             <AddTask Submit={AddTodo} />
-             <Todo todo={todothings}  isComplete ={isComplete} remove={remove}/>
-        </div>
-    );
+             <Todo todo={todothings}  isComplete ={isComplete} remove={remove} edit={Edit}/>
+             </div>
+    )
 }
-
 export default Todolist;
