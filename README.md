@@ -1,4 +1,4 @@
-# ReactJS-TODO LIST - APP
+# ReactJS-TODO LIST-APP
 **Pre-requisite**<br>
 &nbsp;Install node version above 14x
 
